@@ -1,5 +1,5 @@
 # Battery discharge logger
-![Constant current](./assets/ZPB30A1.jpg)
+![Electronic constant current load](./assets/ZPB30A1.jpg)
 
 The constant current load can be cheaply obtained from Ali, but you might also be able to find it on ebay and Amazon for slightly higher prices. Some search terms that should yield the product on those platforms are:
 
@@ -9,7 +9,9 @@ The constant current load can be cheaply obtained from Ali, but you might also b
 
 One really cool feature is that this device will output the batteries current voltage via its serial port. This can then be used to generate discharging graphs:
 
+![Tattu 450mAh 2A](./assets/tattu_450mAh_2A.png)
 
+![Tattu 450mAh 4A](./assets/tattu_450mAh_4A.png)
 
 ## Installation
 Make sure you have [pipenv](https://pipenv.pypa.io/en/latest/) installed. Clone the repository and run.
